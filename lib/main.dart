@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prakerja/home_page.dart';
+//import 'package:prakerja/home_page.dart';
+import 'package:prakerja/pading_page.dart';
 
 void main() {
   runApp(const MyWidget());
@@ -12,7 +13,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage() ,
+      home: PadingPage() ,
     );
   }
 }
